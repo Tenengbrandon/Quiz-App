@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+
+    <div class="header">
+        <ul>
+            <li> <a href="login.html">Login</a></li>
+            <li> <a href="signup.html">Sign Up</a></li>
+            <li> <a href="profile.html">Edit Profile</a></li>
+            <li><a href="#">Quiz</a></li>
+        </ul>
+  </div>
+
+
+
+    <div class="registration">
+        
+    <form class="forms" id="myForms">
+        <h2>Sign-Up / Register</h2>
+        <div>
+            <input type="text" class="input-box" name="First Name" onfocusout="validateFirstName()" id="firstName" placeholder="First Name">
+            <span class="helper-text" ></span>
+        </div>
+        <div>
+            <input type="text" class="input-box" name="Last Name" onfocusout="validateLastName()" id="lastName" placeholder="Last Name">
+            <span class="helper-text" ></span>
+        </div>
+        <div>
+            <input type="text" class="input-box" name="Email" onfocusout="validateEmail()" id="email" placeholder="Your Email">
+            <span class="helper-text" ></span>
+        </div>
+        <div>
+            <input type="text" class="input-box" name="PhoneNumber" onfocusout="validatePhoneNumber()" id="phoneNumber" placeholder="Phone Number">
+            <span class="helper-text" ></span>
+        </div>
+        <div>
+            <input type="text" class="input-box" name="Username" onfocusout="validateUsername()" id="username" placeholder="Username">
+            <span class="helper-text" ></span>
+        </div>
+        <div>
+            <input type="text" class="input-box" name="Password" onfocusout="validatePassword()" id="password" placeholder="Password">
+            <span class="helper-text" ></span>
+        </div>
+        <div>
+            <input type="text" class="input-box" name="confirmPassword" onfocusout="validateConfirmPassword()" id="confirmPassword" placeholder="confirm-Password">
+            <span class="helper-text" ></span>
+        </div>
+        <button>Sign-Up Now</button>
+       <p>Already have an account? <a href="login.html">Login</a></p>
+    </form>
+    </div>
+ 
+
+
+
+
+
+
+     
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <script src="signup.js"></script>
+</body>
+</html>

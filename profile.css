@@ -1,0 +1,32 @@
+.header{
+    width: 500px;
+    height: 70px;
+    float: right;
+}
+
+ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    margin-left: 60px;
+    margin-top: 20px;
+    list-style: none;
+    font-size: 16px;
+    margin-right: 15px;
+    color: white;
+}
+
+ul li a{
+    text-decoration: none;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul li a:hover{
+    color: orange;
+    transition: 1ms;
+}
