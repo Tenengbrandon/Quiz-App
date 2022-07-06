@@ -1,4 +1,13 @@
 
+
+body{
+    background-image: rgba(206, 166, 166, 0.5) url(images/password.webp);
+    height: 150vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .header{
     width: 500px;
     height: 70px;
@@ -18,13 +27,14 @@ ul li{
     list-style: none;
     font-size: 16px;
     margin-right: 15px;
-    color: white;
+    
 }
 
 ul li a{
     text-decoration: none;
     font-weight: 200;
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 ul li a:hover{
@@ -33,7 +43,7 @@ ul li a:hover{
 }
 
 .registration{
-    width: 300px;
+    width: 350px;
     padding: 10% 0 0;
     margin: auto;
 }
@@ -41,7 +51,7 @@ ul li a:hover{
 .forms{
     position: relative;
     z-index: 1;
-    background: rgba(7, 40, 198, 0.8);
+    /* background: rgba(7, 40, 198, 0.8); */
     margin: 0 auto 100px;
     padding: 45px;
     text-align: center;
@@ -56,7 +66,8 @@ ul li a:hover{
     margin: 0 0 12px;
     padding: 10px;
     box-sizing: border-box;
-    border-radius: 10px;
+    background-color: rgba(192, 189, 189, 0.5);
+    border-radius: 20px;
     font-size: 15px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -68,24 +79,62 @@ button{
     width: 100%;
     cursor: pointer;
     text-transform: uppercase;
+    background-color: blue;
     margin: 0 0 12px;
     padding: 10px;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 20px;
     font-size: 15px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .forms h2{
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     padding: 0 0 30px 0;
 }
 
 .forms p{
     padding: 10px;
     text-align: center;
+    color: white;
+    font-size: 16px;
 }
+
+.forms p a{
+    color: white;
+    font-size: 16px;
+}
+
+.registration .forms .assist{
+    display: flex;
+}
+
+.registration .forms .assist p{
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.footer{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer ul li{
+    margin-left: 60px;
+    margin-top: 20px;
+    list-style: none;
+    margin-bottom: 100px;
+    font-size: 16px;
+    margin-right: 15px;
+    
+}
+
+/* responsive styling */
 
 
 
